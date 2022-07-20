@@ -1,0 +1,63 @@
+/* colors */
+.green {
+  color: #17a6b6;
+}
+.black {
+  color: black;
+}
+
+.green-bg {
+  background-color: #17a6b6;
+}
+
+.white-bg {
+  background-color: white;
+}
+
+.title-parg {
+  padding-left: 1vw;
+  padding-top: 0.8vw;
+}
+.footer-font {
+  font-size: small;
+  padding-top: 0.2rem;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 11vw;
+  object-fit: cover;
+}
+
+.modal-img {
+  width: 100%;
+  height: 17vw;
+}
+
+.big-icon {
+  font-size: 3rem;
+}
+
+p {
+  font-size: smaller;
+}
+
+ul {
+  font-size: smaller;
+}
+
+.small-font {
+  font-size: smaller;
+}
+
+.mb-7 {
+  margin-bottom: 7vw;
+}
+
+@media only screen and (max-width: 991px) {
+  .card-img-top {
+    width: 100%;
+    height: 24vw;
+    object-fit: cover;
+  }
+}
